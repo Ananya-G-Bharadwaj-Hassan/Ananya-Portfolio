@@ -1,7 +1,10 @@
 Ananya G Bharadwaj – Personal Resume Website
 
 
-This repository contains my personal resume website built using HTML, CSS, and JavaScript. It showcases my skills, education, projects, and contact information in a clean, professional and responsive format. The website can be hosted using GitHub Pages for easy sharing.
+Live Link - 
+
+
+This repository contains my personal resume website built using HTML, CSS and JavaScript. It showcases my skills, education, projects, certifications and contact information in a clean, professional and responsive format. The website is hosted using GitHub Pages for easy sharing.
 
 
 Technologies Used
@@ -14,6 +17,6 @@ Git & GitHub – Version control and deployment via GitHub Pages.
 
 Project Explanation
 
-Displays personal details, skills, projects, education and contact links in a visually appealing layout.
+Displays personal details, skills, projects, education, certifications and contact links in a visually appealing layout.
 Includes interactive features using JavaScript (e.g., smooth scrolling, animations, dynamic sections).
-Demonstrates front-end development skills, including HTML structuring, CSS styling, and JavaScript interactivity.
+Demonstrates front-end development skills, including HTML structuring, CSS styling and JavaScript interactivity.

@@ -54,7 +54,7 @@ if (section === "skills") {
 
       <div class="skill-card">
         <h3>🤝 Soft Skills</h3>
-        <p>Teamwork, Communication, Problem Solving, Eager Learner</p>
+        <p>Teamwork, Communication, Leadership, Problem Solving, Eager Learner</p>
       </div>
 
       <div class="skill-card">
@@ -109,8 +109,8 @@ if (section === "skills") {
       <p><b>🛠 Tech:</b> HTML5, CSS3, JavaScript, Node.js, Express.js, MongoDB, JWT, bcrypt</p>
 
       <div class="project-links">
-        <a href="YOUR_GITHUB_LINK" target="_blank">💻 GitHub</a>
-        <a href="YOUR_LIVE_LINK" target="_blank">🚀 Try Here</a>
+        <a href="https://github.com/Ananya-G-Bharadwaj-Hassan/VendorConnect" target="_blank">💻 GitHub</a>
+        <a href="https://vendorconnectwebsite.onrender.com" target="_blank">🚀 Try Here</a>
       </div>
     </div>
 
