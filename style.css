@@ -536,3 +536,116 @@ footer {
     line-height:1.7;
     font-size:16px;
 }
+
+/* MEDIA QUERIES Responsive Design
+
+/* Tablets */
+@media (max-width: 992px){
+
+    .container{
+        width:95%;
+        margin:auto;
+    }
+
+    .skills-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero img{
+        width:220px;
+        margin-top:20px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width:768px){
+
+    body{
+        font-size:15px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    h2{
+        font-size:1.6rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    nav a{
+        display:block;
+        padding:10px;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    .project-card{
+        padding:15px;
+    }
+
+    .project-links{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .project-links a{
+        width:100%;
+        text-align:center;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+    .container{
+        width:95%;
+        padding:10px;
+    }
+
+}
+
+
+/* Small Phones */
+@media (max-width:480px){
+
+    h1{
+        font-size:1.7rem;
+    }
+
+    h2{
+        font-size:1.4rem;
+    }
+
+    .profile-img{
+        width:150px;
+        height:150px;
+    }
+
+    .skill-card{
+        padding:12px;
+    }
+
+    .project-card{
+        margin:15px 0;
+    }
+
+}
