@@ -20,7 +20,10 @@
   <!-- NAVBAR -->
   <nav>
     <h2 class="logo">My Portfolio</h2>
-    <ul>
+    <button class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+    </button>
+    <ul id="navMenu">
       <li><button onclick="showSection('about')">About Me</button></li>
       <li><button onclick="showSection('skills')">Skills</button></li>
       <li><button onclick="showSection('education')">Education</button></li>

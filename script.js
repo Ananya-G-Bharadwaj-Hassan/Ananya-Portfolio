@@ -1,7 +1,10 @@
 function showSection(section) {
   const content = document.getElementById("content");
   let html = "";
-   
+   function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("show");
+}
+
   if (section === "about") {
   html = `
     <h2>About Me</h2>
@@ -397,7 +400,11 @@ if (section === "achievements") {
   // scroll automatically to the content section
 content.scrollIntoView({ behavior: "smooth" });
 
-
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("show");
+}
+const menu = document.getElementById("navMenu");
+menu.classList.remove("show");
   // animation refresh
   AOS.init();
 }
