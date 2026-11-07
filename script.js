@@ -33,7 +33,7 @@ if (section === "skills") {
 
       <div class="skill-card">
         <h3>💻 Programming Languages</h3>
-        <p>Java, Python, C</p>
+        <p>Java, Python</p>
       </div>
 
       <div class="skill-card">
@@ -63,7 +63,7 @@ if (section === "skills") {
 
       <div class="skill-card">
         <h3>📖 Relevant Coursework</h3>
-        <p>OOPs, Data Structures & Algorithms, Machine Learning, Statistics, Operating Systems, DBMS</p>
+        <p>OOPs, Basic Data Structures & Algorithms, Machine Learning, Statistics, Operating Systems, DBMS</p>
       </div>
 
     </div>
@@ -194,6 +194,17 @@ if (section === "skills") {
           </div>
           <div class="cert-back">
             <img src="hci.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-card" onclick="this.classList.toggle('flip')">
+        <div class="cert-inner">
+          <div class="cert-front">
+            <h3>Soft Skill Development-NPTEL</h3>
+          </div>
+          <div class="cert-back">
+            <img src="softskill.png">
           </div>
         </div>
       </div>
